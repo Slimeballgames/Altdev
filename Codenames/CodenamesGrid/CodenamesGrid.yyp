@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "325c3ef1-92da-4954-b37c-aa6d14539a3d",
-            "Value": {
-                "id": "4fce3b5f-5398-4353-b801-fe0c5219d0b0",
-                "resourcePath": "objects\\GO_Blue_Square\\GO_Blue_Square.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "37f9b7f9-e28f-42d2-92b8-82e84a9b6c73",
             "Value": {
                 "id": "92ca12e0-5977-4148-ade0-bd75aa0d82e4",
@@ -119,19 +111,35 @@
             }
         },
         {
-            "Key": "7d5642cd-e9a6-4662-8da7-e6cbb6c0184f",
+            "Key": "4d1fd023-91c8-4f37-acf3-a2fea2834c69",
             "Value": {
-                "id": "b0bc1055-5c09-492a-8157-ef24a25158e7",
-                "resourcePath": "objects\\GO_Red_Square\\GO_Red_Square.yy",
+                "id": "6bb34ede-5f12-484f-a5b3-ffab36790eac",
+                "resourcePath": "objects\\GO_TileMaster\\GO_TileMaster.yy",
                 "resourceType": "GMObject"
             }
         },
         {
-            "Key": "84c45f64-119c-4922-b64e-136780e3ba0c",
+            "Key": "50e8c617-f7e2-456c-8b13-959c5b858791",
             "Value": {
-                "id": "27e68fb6-18f9-41dc-8b92-0ee5e814c51c",
-                "resourcePath": "objects\\GO_Black_Square\\GO_Black_Square.yy",
-                "resourceType": "GMObject"
+                "id": "782cfdbb-e6d0-402b-b9e7-32b050a2957b",
+                "resourcePath": "sprites\\SPR_Assassin\\SPR_Assassin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5e448e3b-9758-4f40-85d6-ccaa248664b3",
+            "Value": {
+                "id": "aa43d9a2-fb6d-4d77-b0a3-e52cedf1b622",
+                "resourcePath": "sprites\\SPR_Blue\\SPR_Blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6ff3d4b2-3a58-41f4-bec2-57ded31c7f37",
+            "Value": {
+                "id": "a0d85a51-5f5e-4680-9711-30a7d99f1e3e",
+                "resourcePath": "sprites\\SPR_Red\\SPR_Red.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -164,6 +172,14 @@
                 "id": "06b5df19-fb0b-4edf-9bcf-881648bd3551",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "c61a213f-7259-4e3c-a536-c830b3053f5c",
+            "Value": {
+                "id": "1f40cf3c-1e90-4f57-8ac4-6f177640e20e",
+                "resourcePath": "sprites\\SPR_BlankBoard\\SPR_BlankBoard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

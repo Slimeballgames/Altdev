@@ -1,22 +1,22 @@
 // You can write your code in this editor
 
+randomize();
+
 blue = 0;
 red = 0;
 black = 0;
 
-Row = 5;
-Col = 5;
+Row = 4;
+Col = 4;
 
 maxRed = 8;
 maxBlue = 8;
 maxBlack = 1;
 
-BlueSquare = GO_Blue_Square;
-RedSquare = GO_Red_Square;
 
 //Replace with actual coordinates
-CoOrdsXBase = 145;
-CoOrdsYBase = 150;
+CoOrdsXBase = 150;
+CoOrdsYBase = 145;
 
 CoOrdsX = CoOrdsXBase;
 CoOrdsY = CoOrdsYBase;
@@ -30,30 +30,22 @@ for(i = 0; i <= Row; i++)
 	{
 			
 			//Chooses the tile to place
-			ToPlace = choose(BlueSquare, RedSquare);
-			/*
-			//Increments the counters
-			if(ToPlace == RedSquare)
-			{
-				if(red < maxRed){
-					
-					red++;
-				}
-			}
-			if(ToPlace == BlueSquare)
-			{
-				if(blue < maxRed){
-					
-					blue++;
-				}
-			}*/
+			ToPlace = GO_TileMaster
+
+			with(ToPlace){
+				sprite_index = choose(SPR_Red, SPR_Assassin, SPR_Blue);
+			}	
+
+			switch
 			
-			instance_create_layer(CoOrdsX, CoOrdsY, "Colors", BlueSquare);
-			CoOrdsX += CoOrdsXBase;
+			
+			instance_create_layer(CoOrdsX, CoOrdsY, "Colors", ToPlace);
+			CoOrdsX = CoOrdsX + CoOrdsXBase + 30;
 		}
 		
-		
-		CoOrdsY += CoOrdsYBase;
+		CoOrdsX = CoOrdsXBase;
+		CoOrdsY = CoOrdsY + CoOrdsYBase + 30;
 		
 		
 	}
+	
