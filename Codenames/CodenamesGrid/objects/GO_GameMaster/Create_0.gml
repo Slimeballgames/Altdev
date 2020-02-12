@@ -2,19 +2,17 @@
 
 randomize();
 
-blue = 0;
-red = 0;
-black = 0;
+global.blue = 0;
+global.red = 0;
+global.black = 0;
 
 Row = 4;
 Col = 4;
 
-maxRed = 8;
-maxBlue = 8;
-maxBlack = 1;
+global.maxRed = 7;
+global.maxBlue = 7;
+global.maxBlack = 1;
 
-
-//Replace with actual coordinates
 CoOrdsXBase = 150;
 CoOrdsYBase = 145;
 
@@ -30,15 +28,8 @@ for(i = 0; i <= Row; i++)
 	{
 			
 			//Chooses the tile to place
-			ToPlace = GO_TileMaster
-
-			with(ToPlace){
-				sprite_index = choose(SPR_Red, SPR_Assassin, SPR_Blue);
-			}	
-
-			switch
-			
-			
+			ToPlace = GO_TileMaster				
+						
 			instance_create_layer(CoOrdsX, CoOrdsY, "Colors", ToPlace);
 			CoOrdsX = CoOrdsX + CoOrdsXBase + 30;
 		}
