@@ -39,4 +39,5 @@ for(i = 0; i <= Row; i++)
 		
 		
 	}
-	
+
+alarm[0] = room_speed;
