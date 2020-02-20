@@ -28,7 +28,7 @@ for(i = 0; i <= Row; i++)
 	{
 			
 			//Chooses the tile to place
-			ToPlace = GO_TileMaster				
+			ToPlace = GO_TileMaster;				
 						
 			instance_create_layer(CoOrdsX, CoOrdsY, "Colors", ToPlace);
 			CoOrdsX = CoOrdsX + CoOrdsXBase + 30;
